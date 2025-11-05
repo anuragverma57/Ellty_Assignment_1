@@ -1,0 +1,7 @@
+.main_wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    color: rgba(31, 33, 40, 1);
+}
