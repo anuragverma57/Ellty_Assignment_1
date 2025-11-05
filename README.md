@@ -1,73 +1,63 @@
-# React + TypeScript + Vite
+# Ellty Frontend Test Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This project is a replication of the given Figma component as part of the Ellty Frontend Test Assignment. The goal was to create a **pixel-perfect** implementation matching the design provided in the [Figma file](https://www.figma.com/design/dwBFtlKY933OJWWSrGPs5q/Frontend?node-id=0-1).
 
-Currently, two official plugins are available:
+The component was implemented using **Vite**, **React**, and **TypeScript**, ensuring clean, maintainable, and modular code.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Live Demo
+🔗 **Live Link:** https://steady-melomakarona-25feb3.netlify.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
+- **React** (with Vite for fast bundling)
+- **TypeScript** (for type safety and scalability)
+- **CSS Modules / Styled Components** (for styling precision)
+- **Figma Prototype Reference** (for visual and functional accuracy)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## ✨ Features
+- Pixel-perfect layout based on Figma design
+- Responsive and accessible UI
+- Interactive elements (checkboxes, buttons)
+- Clean and readable code structure
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🧠 Technical Skills Demonstrated
+- Frontend component architecture using React + TS
+- Responsive design with precise layout handling
+- DOM and event handling for interactivity
+- Code organization and modular styling practices
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📦 Project Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/anuragverma57/Ellty_Assignment_1
+   cd Ellty_Assignment_1
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the project locally:
+   ```bash
+   npm run dev
+   ```
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## 🧩 Notes
+Completed in approximately **40 minutes**, focusing on accuracy, design fidelity, and code clarity.
+
+---
+
+**Author:** Anurag Verma  
+**Role:** Frontend / Full Stack Developer  
+**Date:** 05 November 2025
